@@ -11,7 +11,8 @@ public class App {
         String compareFile = args[2];
         String compareColumn = args[3];
 
-        new ExcelMerger(sourceFile, sourceColumn, compareFile, compareColumn);
+        OnOff status = OnOff.ON;
 
+        new ExcelMerger(sourceFile, sourceColumn, compareFile, compareColumn);
     }
 }
